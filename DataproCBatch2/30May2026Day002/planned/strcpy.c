@@ -3,7 +3,8 @@
 int main(){
 	
 	char source[20] = "Hello World";
-	char destination[3];
+	// the destination array size must be greater than or eaul to source array
+	char destination[20]; 
 	strcpy(destination,source);
 	printf("%s",destination);
 	
