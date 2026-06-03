@@ -1,0 +1,65 @@
+C Pointers and Arrays
+Pointers & Arrays
+{
+    You can also use pointers to access arrays.
+     "memory address example"
+     which means that the entire array takes up 16 bytes (4 * 4) of memory storage
+    
+    
+    How Are Pointers Related to Arrays
+    what's the relationship between pointers and arrays?
+    the name of an array, is actually a pointer to the first element of the array
+    The memory address of the first element is the same as the name of the array
+    show example "first element in Array"
+    This basically means that we can work with arrays through pointers!
+    {
+        *(myNumbers + 1)
+    }
+    It is also possible to change the value of array elements with pointers
+    {
+        *(myNumbers +1) = 17;
+    }
+
+    Quiz
+    {
+        int myNumbers[4] = {25, 50, 75, 100};
+        How many bytes of memory does the array myNumbers occupy, assuming each int is 4 bytes?
+        How would you access the third element in myNumbers using pointers?
+        How to print the memory address of the first element in myNumbers?
+        what will be the output?
+        {
+            int myNumbers[4] = {25, 50, 75, 100};
+            int *ptr = myNumbers;
+            printf("%d", *(ptr + 1));
+        }
+        
+    }
+
+}
+----------------------------------------------------------------------------------
+C Pointer Arithmetic
+
+Pointer Arithmetic
+{
+    Pointer arithmetic means changing the value of a pointer to make it point 
+    to a different element in memory.    
+    
+}
+
+Increment and Decrement{
+
+}
+Pointer Subtraction (Distance)
+{
+    You can subtract two pointers that point to 
+    elements in the same array to find out 
+    how many elements are between them
+
+    Note: Pointer subtraction only works
+    when both pointers point into the same array. 
+    The result is measured in elements, not bytes.
+}
+Pointer Arithmetic Depends on Type
+{
+    
+}
