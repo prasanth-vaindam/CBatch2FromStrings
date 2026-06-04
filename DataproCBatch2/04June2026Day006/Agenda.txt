@@ -1,0 +1,17 @@
+increment the pointer
+Pointer Arithmetic Depends on Type
+
+Pointer Subtraction (Distance)
+
+
+Looping with Pointers
+{
+    *p gives the current element value.
+    p++ moves the pointer to the next element in the array.
+    No array index (i) is needed - the pointer keeps track of the position.
+}
+
+Common Mistakes to Avoid
+Using the wrong type: Remember that pointer movement depends on its type. An int* moves in 4-byte steps, but a char* moves 1 byte at a time. Mixing them up will point to the wrong memory locations.
+Uninitialized pointers: Always make sure a pointer is pointing to something real before you use it. Using a pointer that doesn't point anywhere can crash your program.
+Going out of bounds: Never move a pointer past the end of an array or before it starts. The only safe "outside" position is one step past the end, and that's only for comparing pointers - not for accessing values.
