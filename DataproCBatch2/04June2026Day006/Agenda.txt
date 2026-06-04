@@ -1,8 +1,9 @@
 increment the pointer
-Pointer Arithmetic Depends on Type
+
 
 Pointer Subtraction (Distance)
 
+Pointer Arithmetic Depends on Type
 
 Looping with Pointers
 {
