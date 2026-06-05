@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+// x, y are parameters 
 int sum(int x,int y){
 	return x+y;
 }
@@ -18,7 +19,7 @@ int main()
 	printf("Enter Two Numbers: ");
 	scanf("%d%d",&a,&b);
 	
-	int result = sum(a,b); // function call
+	int result = sum(a,b); // function call and a,b are arguments
 	
 	printf("The sum of %d and %d is %d\n",a,b, sum(a,b));
 	printf("The difference of %d and %d is %d\n",a,b, sub(a,b));
