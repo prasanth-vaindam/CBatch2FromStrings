@@ -1,0 +1,7 @@
+fgets(myString, 100, fptr)
+fgets() reads a line of text from a file and stores it 
+in a character array (string).
+
+myString -> Where the text will be stored.
+100 -> Maximum number of characters to read (including the ending \0).
+fptr -> The file from which the text is read.
