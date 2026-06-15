@@ -1,0 +1,13 @@
+sample programs
+type conversion
+implicit 
+float f = 9
+5/2
+
+const
+When you declare a constant variable, it must be assigned with a value:
+Another thing about constant variables, is that it is considered good practice to declare them with uppercase.
+
+sizeof
+
+Operator
