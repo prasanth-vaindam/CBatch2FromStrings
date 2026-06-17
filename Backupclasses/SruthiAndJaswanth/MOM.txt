@@ -1,0 +1,9 @@
+Day 01 -
+Hello World
+
+Day 02 - 
+Format Specifiers
+
+Day 03 -
+Homework Recap
+Variable

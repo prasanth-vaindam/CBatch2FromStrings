@@ -2,7 +2,8 @@
 
 int main()
 {
-    printf("My favorite game is %s\n", "Cricket");
+	char game[] = "Cricket";
+    printf("My favorite game is %s\n", game);
     printf("My favorite fruit is %s\n", "Mango");
 
     return 0;

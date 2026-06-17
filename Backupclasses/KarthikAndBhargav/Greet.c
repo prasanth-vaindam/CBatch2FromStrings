@@ -5,7 +5,7 @@ void greet()
 	printf("Welcome to India\n");
 }
 
-int Main()
+int main()
 {
 	printf("Hello Students\n");
 	greet();
