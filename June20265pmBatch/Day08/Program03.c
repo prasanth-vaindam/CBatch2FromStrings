@@ -5,3 +5,15 @@ Declare a float named score and assign it a value (with decimals)
 Declare a char named grade and assign it a single letter (in single quotes)
 Print all three values using printf (use the correct format specifiers).
 */
+#include<stdio.h>
+int main(){
+	int studentID = 523;
+	float score = 95.4;
+	char grade = 'A';
+	
+	printf("Student ID: %d\n",studentID);
+	printf("Score  \t: %.1f\n", score);
+	printf("grade  \t: %c\n", grade);
+	
+	return 0;
+}
