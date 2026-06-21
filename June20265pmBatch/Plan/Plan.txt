@@ -1,0 +1,29 @@
+Day 08 - Constants
+
+Program 1: Calculate Circle Area Using a Constant (Recommended ⭐)
+Write a C program to accept the radius of a circle and calculate its area using a constant value for π (PI = 3.14159).
+
+Program 2: Demonstrate That Constants Cannot Be Modified
+
+Day 09 - Operators
+
+Arithmetic Operators
+Simple Calculator
+Convert total days into weeks and remaining days
+
+Comparision Operators
+compare two numbers
+check passing mark
+
+Compound Assigment Operators
+Write a C program to demonstrate all compound assignment operators.
+Bank Account Balance Update ⭐
+Write a C program to accept an initial bank balance. Deposit ₹500 and then withdraw ₹200 using compound assignment operators.
+Salary Increment and Tax Deduction
+Write a C program to accept an employee's salary. Increase the salary by ₹5,000 and then deduct ₹2,000 as tax using compound assignment operators.
+
+
+
+
+
+

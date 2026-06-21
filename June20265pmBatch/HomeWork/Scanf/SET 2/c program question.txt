@@ -1,0 +1,32 @@
+ATM Application:
+
+pin:9999
+
+Balance: 30000
+
+Test1:
+
+Enter PIN: 9999
+
+Enter Amount: 25000
+
+Please Wait...
+
+Collect Money
+
+Balance: 5000
+
+Test2:
+
+Enter PIN: 1234
+
+Invalid Pin
+
+Test3:
+
+Enter PIN: 9999
+
+Enter Amount: 35000
+
+Insufficient Amount
+

@@ -1,0 +1,17 @@
+HelloWorld
+\n\t
+data
+
+print age
+variable
+format specifier
+sample programs add, sub, mul,
+typecasting
+float to int
+char to int - ascii value
+sample program divide
+add two numbers
+datatype 
+sizeo(datatype)
+scanf
+Sample
